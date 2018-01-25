@@ -119,6 +119,9 @@
             <goals>
               <goal>jar</goal>
             </goals>
+                <configuration>
+                    <additionalparam>-Xdoclint:none --allow-script-in-comments</additionalparam>
+                </configuration>
           </execution>
         </executions>
       </plugin>
